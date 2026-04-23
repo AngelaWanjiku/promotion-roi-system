@@ -4,7 +4,7 @@ Stack: Python · MySQL · Power BI · Excel
 Why I built this
 60% of consumer goods companies can't explain why their promotions succeed or fail - and 71% haven't fully used analytics to fix that.
 That stat stuck with me. I come from a finance background and the question of which spend actually returns value is something I've seen mishandled at every level. So I built a system to answer it properly, end to end.
-This project traces a full analytics pipeline: raw FMCG data → Excel cleaning → Python feature engineering → Power BI executive dashboard. The goal was to identify which promotions drive real profit, which ones quietly destroy margin, and what that means strategically by category and location.
+This project traces a full analytics pipeline: raw FMCG data > Excel cleaning > Python feature engineering > Power BI executive dashboard. The goal was to identify which promotions drive real profit, which ones quietly destroy margin, and what that means strategically by category and location.
 
 What the system does
 
@@ -18,19 +18,6 @@ Visualizes everything in a 4-page Power BI executive dashboard
 Key findings
 InsightDetailHighest ROI combinationSuburban Household promotions at 258% avg ROIWorst performingRural Dairy at 61% avg ROI - 4x below Urban DairyLoss-making promotions17.4% of all promotions ran at a lossCross-category patternsNo significant basket-building detected - promotions drive single-category demandBest rural opportunitySnacks at 207% ROI - high return, likely low competition
 
-Project structure
-promotion-roi-system/
-├── data/
-│   └── clean_promotion_data_with_insights.csv   
-├── notebooks/
-│   └── promotion_analysis.ipynb                 
-├── dashboard/
-│   └── screenshots/
-│       ├── page1_executive_overview.png
-│       ├── page2_profit_roi_analysis.png
-│       ├── page3_performance_insights.png
-│       └── page4_data_mining.png
-└── README.md
 
 Dashboard pages
 Page 1 - Executive Sales Overview
