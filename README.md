@@ -8,7 +8,7 @@
 
 60% of consumer goods companies can't explain why their promotions succeed or fail - and 71% haven't fully used analytics to fix that.
 
-That stat stuck with me. I come from a finance background - investment and insurance - and the question of which spend actually returns value is something I've seen mishandled at every level. So I built a system to answer it properly, end to end.
+That stat stuck with me. I come from a finance background, and the question of which spend actually returns value is something I've seen mishandled at every level. So I built a system to answer it properly, end to end.
 
 This project traces a full analytics pipeline: raw FMCG data, Excel cleaning, Python feature engineering, Power BI executive dashboard. The goal was to identify which promotions drive real profit, which ones quietly destroy margin, and what that means strategically by category and location.
 
